@@ -43,3 +43,4 @@ Feature | Description
 <b> Dependent Variable </b><br>
 `project_is_approved` | A binary flag indicating whether DonorsChoose approved the project. A value of `0` indicates the project was not approved, and a value of `1` indicates the project was approved.
 
+##### Credits : WWW.AppliedAICourse.com
