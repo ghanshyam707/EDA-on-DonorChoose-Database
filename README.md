@@ -8,9 +8,9 @@ DonorsChoose.org receives hundreds of thousands of project proposals each year f
 The goal is to predict whether or not a DonorsChoose.org project proposal submitted by a teacher will be approved, using the text of project descriptions as well as additional metadata about the project, teacher, and school. DonorsChoose.org can then use this information to identify projects most likely to need further review before approval. 
 
 <b> Independent Variables </b><br>
-## About the DonorsChoose Data Set
 
-The `train.csv` data set provided by DonorsChoose contains the following features:
+
+The `train.csv` data set contains the following features:
 
 Feature | Description 
 ----------|---------------
@@ -41,7 +41,5 @@ Feature | Description
 
 
 <b> Dependent Variable </b><br>
-Label | Description
-----------|---------------
 `project_is_approved` | A binary flag indicating whether DonorsChoose approved the project. A value of `0` indicates the project was not approved, and a value of `1` indicates the project was approved.
 
