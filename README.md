@@ -1,13 +1,13 @@
 # EDA-on-DonorChoose-Database
 In this project I have done EDA on DonorChoose database to understand distibution of data of features.
 
-<b> Discription Of Data </b>
+<b> Discription Of Data </b><br>
 DonorsChoose.org receives hundreds of thousands of project proposals each year for classroom projects in need of funding. Right now, a large number of volunteers is needed to manually screen each submission before it's approved to be posted on the DonorsChoose.org website.
 
-<b> Goal for the Analysis </b>
+<b> Goal for the Analysis </b><br>
 The goal is to predict whether or not a DonorsChoose.org project proposal submitted by a teacher will be approved, using the text of project descriptions as well as additional metadata about the project, teacher, and school. DonorsChoose.org can then use this information to identify projects most likely to need further review before approval. 
 
-<b> Independent Variables </b>
+<b> Independent Variables </b><br>
 ## About the DonorsChoose Data Set
 
 The `train.csv` data set provided by DonorsChoose contains the following features:
@@ -30,8 +30,6 @@ Feature | Description
 **`teacher_prefix`** | Teacher's title. One of the following enumerated values: <br/><ul><li><code>nan</code></li><li><code>Dr.</code></li><li><code>Mr.</code></li><li><code>Mrs.</code></li><li><code>Ms.</code></li><li><code>Teacher.</code></li></ul>  
 **`teacher_number_of_previously_posted_projects`** | Number of project applications previously submitted by the same teacher. **Example:** `2` 
 
-<sup>*</sup> See the section <b>Notes on the Essay Data</b> for more details about these features.
-
 Additionally, the `resources.csv` data set provides more data about the resources required for each project. Each line in this file represents a resource required by a project:
 
 Feature | Description 
@@ -42,5 +40,8 @@ Feature | Description
 **`price`** | Price of the resource required. **Example:** `9.95`   
 
 
-
+<b> Dependent Variable </b><br>
+Label | Description
+----------|---------------
+`project_is_approved` | A binary flag indicating whether DonorsChoose approved the project. A value of `0` indicates the project was not approved, and a value of `1` indicates the project was approved.
 
