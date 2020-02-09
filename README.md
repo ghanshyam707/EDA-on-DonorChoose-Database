@@ -1,7 +1,7 @@
 # EDA-on-DonorChoose-Database
-In this project I have done EDA on DonorChoose database to understand distibution of data of features.
+In this project I have done EDA on DonorChoose database to understand distribution of data of features.
 
-<b> Discription Of Data </b><br>
+<b> Description Of Data </b><br>
 DonorsChoose.org receives hundreds of thousands of project proposals each year for classroom projects in need of funding. Right now, a large number of volunteers is needed to manually screen each submission before it's approved to be posted on the DonorsChoose.org website.
 
 <b> Goal for the Analysis </b><br>
